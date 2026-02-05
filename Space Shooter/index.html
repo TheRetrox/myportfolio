@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Orbitron:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Space Shooter - Neon Horizon</title>
+
+</head>
+
+<body>
+    <div id="l-side"></div>
+    <div class="board">
+        <div class="score-display">SCORE: <span id="score">0</span></div>
+
+
+        <div id="start-screen" class="game-ui">
+            <div class="ui-content">
+                <h1 class="game-title">SPACE SHOOTER</h1>
+                <div class="ship ship-animation start-screen-ship"></div>
+                <p class="instructions">Use ARROW keys to move and ENTER to shoot. Destroy enemies and avoid collisions!
+                </p>
+                <p class="instructions" style="color: #ff9999; font-size: 1rem;">On mobile: Use touch controls at bottom
+                </p>
+                <button id="start-button" class="game-button">START MISSION</button>
+            </div>
+        </div>
+
+
+        <div id="game-over" class="game-ui game-over">
+            <div class="ui-content">
+                <h1 class="game-title">MISSION FAILED</h1>
+                <p class="final-score">FINAL SCORE: <span id="final-score">0</span></p>
+                <p class="instructions">Your ship was destroyed in combat. Better luck next time, pilot!</p>
+                <button id="restart-button" class="game-button">TRY AGAIN</button>
+            </div>
+        </div>
+
+
+        <div class="touch-controls">
+            <div class="joystick" id="joystick">
+                <div class="joystick-handle" id="joystick-handle"></div>
+            </div>
+            <div class="shoot-button" id="shoot-button">FIRE</div>
+        </div>
+    </div>
+    <div id="r-side"></div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
