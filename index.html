@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="theme-default">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+    <meta name="description"
+        content="Anirban Roy - Fullstack Web Developer specializing in frontend development, backend APIs, and interactive web games">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+
+</head>
+
+<body>
+
+    <div class="invert"></div>
+    <div class="model-container">
+        <model-viewer src="3d models/space_station_3.glb" id="space-station" autoplay></model-viewer>
+    </div>
+
+    <header>
+
+        <div class="navbar">
+
+            <div class="logo">
+                <h1>Anirban.</h1>
+            </div>
+
+            <div class="menu">
+                <a href="#hero-project">About</a>
+                <a href="#projects-section">Projects</a>
+                <a href="#service-sec">Services</a>
+                <a href="#all-skills">Skills</a>
+            </div>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="mobile-menu">
+                <button class="close-menu"><i class="fa-solid fa-xmark"></i></button>
+                <a href="#hero-project">About</a>
+                <a href="#projects-section">Projects</a>
+                <a href="#service-sec">Services</a>
+                <a href="#all-skills">Skills</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section id="hero-project">
+
+        <div class="hero-sec">
+
+            <div class="about-sec">
+                <div class="intro">
+                    <h2>Hello! its me </h2>
+                    <h1>Anirban Roy </h1>
+                    <div class="texts">
+                        <p id="im-text">And im a fullstack web developer</p>
+
+                    </div>
+
+                    <p id="intro-text"></p>
+
+                    <div class="github-stats-minimal">
+                        <div class="stat-item-minimal">
+                            <span id="stat-repos" class="stat-number-large">--</span>
+                            <span class="stat-label-small">Repos</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item-minimal">
+                            <span id="account-age-years" class="stat-number-large">--</span>
+                            <span class="stat-label-small">Years Active</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item-minimal">
+                            <span class="stat-number-large">30+</span>
+                            <span class="stat-label-small">Projects</span>
+                        </div>
+                    </div>
+
+                    <a href="https://github.com/theRetrox" target="_blank" class="github-button">Git Hub</a>
+                </div>
+
+
+                <div class="hero-c">
+
+                    <model-viewer src="3d models/neural_brain.glb" id="hero-model"></model-viewer>
+                    <div class="floating-elements">
+                        <div class="orb orb-1"></div>
+                        <div class="orb orb-2"></div>
+                        <div class="orb orb-3"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section id="projects-section">
+
+        <div class="projects-container">
+
+            <div class="projects-header">
+                <h1>Featured Projects</h1>
+                <p>A showcase of my recent work and creative endeavors</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <a href="Space Gravity/index.html" target="_blank" class="project-link">
+                    <div class="project-card" data-category="game">
+                        <div class="project-image">
+                            <img src="./img/gravitas.png" alt="Space Gravity" class="project-thumb">
+                            <div class="project-overlay">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Space Gravity</h3>
+                            <p>Semi-realistic space simulation with orbital mechanics, gravitational physics, and
+                                interactive celestial bodies</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5 Canvas</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Physics</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="Space Shooter/index.html" target="_blank" class="project-link">
+                    <div class="project-card" data-category="game">
+                        <div class="project-image">
+                            <img src="img/space - game.png" alt="Space Shooter" class="project-thumb">
+                            <div class="project-overlay">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Space Shooter</h3>
+                            <p>Aircraft shooter demo with enemy waves, weapon upgrades, and collision detection</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5 Canvas</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Game Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href="Type Test/index.html" target="_blank" class="project-link">
+                    <div class="project-card" data-category="tool">
+                        <div class="project-image">
+                            <img src="./img/keyboard.png" alt="Virtual Keyboard" class="project-thumb">
+                            <div class="project-overlay">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Virtual Keyboard</h3>
+                            <p>Virtual keyboard with real-time key detection and typing practice functionality</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="service-sec">
+
+        <div class="service-header">
+            <h1>What I Do</h1>
+            <p>Services I offer to bring your ideas to life</p>
+        </div>
+
+        <div class="ser-comtainer">
+
+            <div class="s-sec-1 s-sec">
+
+                <div class="services-sq">
+                    <h1 id="frontend-logo-n">Frontend</h1>
+                    <h1 id="frontend-logo"><i class="fa-brands fa-html5"></i></h1>
+                </div>
+
+
+                <div class="services-re">
+
+                    <div class="frontend-text">
+                        <h1>Frontend Development</h1>
+                        <p>Build responsive and interactive user interfaces with HTML, CSS, and JavaScript.
+                        </p>
+                    </div>
+
+                    <div class="card-p">
+                        <div class="card-con">
+                            <h1 id="frontend-logo-in"><i class="fa-brands fa-html5"></i></h1>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="s-sec-2 s-sec">
+                <div class="services-re">
+
+                    <div class="ser-comtainer-p">
+                        <div class="ser-container">
+                            <div class="c-container"><i class="fa-brands fa-html5"></i></div>
+                            <div class="c-line">
+                                <div class="skill-level"></div>
+                                <div class="little-l"></div>
+                            </div>
+                            <div class="c-container"><i class="fa-solid fa-server"></i></div>
+                            <div class="c-line">
+                                <div class="skill-level"></div>
+                                <div class="little-l"></div>
+                            </div>
+                            <div class="c-container"><i class="fa-solid fa-database"></i></div>
+                        </div>
+
+                        <div class="frontend-text-2">
+                            <h1>Backend Development</h1>
+                            <p>Develop server-side logic, APIs, and database integration with Node.js and MongoDB.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="services-sq">
+                    <h1 id="frontend-logo-n">Backend</h1>
+                    <h1 id="backend-logo"><i class="fa-solid fa-server"></i></h1>
+                </div>
+            </div>
+
+            <div class="s-sec-3 s-sec">
+                <div class="services-sq">
+                    <h1 id="frontend-logo-n">Webgames</h1>
+                    <h1 id="gamedev-logo"><i class="fa-solid fa-gamepad"></i></h1>
+                </div>
+
+                <div class="services-re">
+
+                    <div class="frontend-text-3">
+                        <h1>Webgames Development</h1>
+                        <p>Build browser-based games with HTML5 Canvas, JavaScript animations, and physics engines for
+                            engaging gameplay.
+                        </p>
+                    </div>
+
+
+                    <div class="container-file">
+
+                        <pre><code class="language-javascript">
+<span class="c-keyword">const</span> <span class="c-func">game</span> <span class="c-operator">=</span> <span class="c-paren">()</span><span class="c-operator">=></span><span class="c-paren">{</span>
+    <span class="c-comment">// Initialize game canvas </span>
+    <span class="c-comment">// Handle user input </span>
+    <span class="c-comment">// Render graphics </span>
+    <span class="c-func">requestAnimationFrame</span><span class="c-paren">(</span><span class="c-arg">game</span><span class="c-paren">)</span><span class="c-semi">;</span>
+<span class="c-paren">}</span>
+
+<span class="c-func">requestAnimationFrame</span><span class="c-paren">(</span><span class="c-arg">game</span><span class="c-paren">)</span><span class="c-semi">;</span>
+                        </code></pre>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="all-skills">
+
+        <div class="skills-container">
+
+            <div class="skills-header">
+                <h1>Tech Arsenal</h1>
+                <p>Core technologies powering my development workflow</p>
+            </div>
+
+            <div class="skills-grid-new">
+
+                <div class="skill-card" data-skill="html">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-meta">
+                            <h3>HTML5</h3>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 90%;">
+                                <div class="little-l"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="css">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-meta">
+                            <h3>CSS3</h3>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 85%;">
+                                <div class="little-l"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="javascript">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-meta">
+                            <h3>JavaScript</h3>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 80%;">
+                                <div class="little-l"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="react">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-meta">
+                            <h3>React</h3>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 75%;">
+                                <div class="little-l"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="node">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-node"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-meta">
+                            <h3>Node.js</h3>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 70%;">
+                                <div class="little-l"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="python">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-meta">
+                            <h3>Python</h3>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 65%;">
+                                <div class="little-l"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="mongodb">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-meta">
+                            <h3>MongoDB</h3>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 70%;">
+                                <div class="little-l"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="git">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="skill-info">
+                        <div class="skill-meta">
+                            <h3>Git</h3>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 80%;">
+                                <div class="little-l"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="hireme-sec">
+
+            <div class="hire-content">
+                <h1>Let's work together!</h1>
+                <p>I'm available for freelance projects and full-time opportunities.</p>
+                <a href="mailto:your.email@example.com" class="hireme-button">Hire Me</a>
+            </div>
+        </div>
+
+        <div class="footer-socials">
+            <a href="https://github.com/theRetrox" target="_blank" class="social-icon-link" aria-label="GitHub"><i
+                    class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-icon-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon-link" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="social-icon-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+    </section>
+
+    <footer>
+        <p class="footer-text">
+            <span>&copy; 2026 Anirban Roy. All rights reserved.</span>
+            <span style="font-size: 10px; color: rgba(255, 255, 255, 0.2);">Space Station 3D Model by re1monsen — via
+                Sketchfab (CC BY)</span>
+            <span style="font-size: 10px; color: rgba(255, 255, 255, 0.2);">"Neural Networks of the Brain" 3D Model —
+                via Sketchfab</span>
+        </p>
+    </footer>
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
